@@ -1,0 +1,109 @@
+RESULTADO
+Desde el nodo físico 2 al 1 se llega por los nodos físicos[2, 1]
+Desde el nodo físico 5 al 1 se llega por los nodos físicos[5, 1]
+El costo B de la solicitud 1 es 8
+El nodo virtual 2 esta mapeado en el nodo fisico 1
+El nodo virtual 1 esta mapeado en el nodo fisico 2
+El nodo virtual 3 esta mapeado en el nodo fisico 5
+
+Desde el nodo físico 2 al 3 se llega por los nodos físicos[2, 3]
+Desde el nodo físico 4 al 3 se llega por los nodos físicos[4, 3]
+El costo B de la solicitud 2 es 16
+El nodo virtual 2 esta mapeado en el nodo fisico 3
+El nodo virtual 1 esta mapeado en el nodo fisico 2
+El nodo virtual 3 esta mapeado en el nodo fisico 4
+
+Desde el nodo físico 3 al 4 se llega por los nodos físicos[3, 4]
+Desde el nodo físico 5 al 4 se llega por los nodos físicos[5, 4]
+El costo B de la solicitud 3 es 24
+El nodo virtual 2 esta mapeado en el nodo fisico 4
+El nodo virtual 3 esta mapeado en el nodo fisico 3
+El nodo virtual 1 esta mapeado en el nodo fisico 5
+
+Se ha rechazado la solicitud 4 por falta de recursos
+
+El link 1-2 es usado 1 veces
+El link 2-3 es usado 1 veces
+El link 3-4 es usado 2 veces
+El link 4-5 es usado 1 veces
+El link 1-5 es usado 1 veces
+
+El link de sustrato 1-2 es usado por: 
+Posición0: La solicitud 1, enlace virtual 1-2
+Posición1: La solicitud 1, enlace virtual 1-2
+Posición2: null
+Posición3: null
+Posición4: null
+
+El link de sustrato 2-3 es usado por: 
+Posición0: La solicitud 2, enlace virtual 1-2
+Posición1: La solicitud 2, enlace virtual 1-2
+Posición2: null
+Posición3: null
+Posición4: null
+
+El link de sustrato 3-4 es usado por: 
+Posición0: La solicitud 2, enlace virtual 3-2
+Posición1: La solicitud 2, enlace virtual 3-2
+Posición2: La solicitud 3, enlace virtual 3-2
+Posición3: La solicitud 3, enlace virtual 3-2
+Posición4: null
+
+El link de sustrato 4-5 es usado por: 
+Posición0: La solicitud 3, enlace virtual 1-2
+Posición1: La solicitud 3, enlace virtual 1-2
+Posición2: null
+Posición3: null
+Posición4: null
+
+El link de sustrato 1-5 es usado por: 
+Posición0: La solicitud 1, enlace virtual 3-2
+Posición1: La solicitud 1, enlace virtual 3-2
+Posición2: null
+Posición3: null
+Posición4: null
+
+
+El nodo fisico 1 es usado por: 
+- La solicitud 1
+- El nodo virtual 2
+- El uso de cpu para el nodo virtual es 9
+
+El nodo fisico 2 es usado por: 
+- La solicitud 1
+- El nodo virtual 1
+- El uso de cpu para el nodo virtual es 10
+
+- La solicitud 2
+- El nodo virtual 1
+- El uso de cpu para el nodo virtual es 10
+
+El nodo fisico 3 es usado por: 
+- La solicitud 2
+- El nodo virtual 2
+- El uso de cpu para el nodo virtual es 9
+
+- La solicitud 3
+- El nodo virtual 3
+- El uso de cpu para el nodo virtual es 7
+
+El nodo fisico 4 es usado por: 
+- La solicitud 2
+- El nodo virtual 3
+- El uso de cpu para el nodo virtual es 8
+
+- La solicitud 3
+- El nodo virtual 2
+- El uso de cpu para el nodo virtual es 4
+
+El nodo fisico 5 es usado por: 
+- La solicitud 1
+- El nodo virtual 3
+- El uso de cpu para el nodo virtual es 8
+
+- La solicitud 3
+- El nodo virtual 1
+- El uso de cpu para el nodo virtual es 5
+
+EL COSTO TOTAL DE MAPEO ES 48
+SE HAN RECHAZADO 1 SOLICITUDES
